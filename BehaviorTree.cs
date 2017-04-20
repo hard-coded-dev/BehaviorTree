@@ -9,18 +9,6 @@ public enum TaskResult
     RUNNING,
 }
 
-public enum Command
-{
-    WAIT,
-    FASTER,
-    SLOWER,
-    PORT,           // Left
-    STARBOARD,      // Right
-    FIRE,
-    MOVE,
-    MINE,
-}
-
 public interface ITask
 {
     TaskResult DoAction();
