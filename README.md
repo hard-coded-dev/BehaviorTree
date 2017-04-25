@@ -2,7 +2,7 @@
 Basic implementation of behavior tree
 
 # Examples
-That's used for the conetest of Coders of Caribbean in codinggame.com
+That's used for the conetest of Coders of Caribbean in codingame.com
 ```
   Behavior = new Selector(
       new Sequencer(
