@@ -3,7 +3,7 @@ Basic implementation of behavior tree
 
 # Examples
 That's used for the conetest of Coders of Caribbean in codinggame.com
-  '''
+```
   Behavior = new Selector(
       new Sequencer(
           new Conditional( IsOnMoving ),
@@ -54,4 +54,4 @@ That's used for the conetest of Coders of Caribbean in codinggame.com
       ),
       new BehaviorAction( Wait )
     );
-	'''
+```
